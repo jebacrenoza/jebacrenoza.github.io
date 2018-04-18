@@ -1,0 +1,140 @@
+/*glowne*/
+.heady {
+  margin-left:auto;
+  margin-right:auto;
+  width:40%;
+  height:150px;
+  display:block;
+  background-position: center;
+}
+header {
+  border: 1px solid black;
+  background-color: gray;
+}
+
+.navbar {
+  position: relative;
+  border: 5px groove lightblue;
+  width:300px;
+  margin:auto;
+  height:40px;
+  background-color:beige;
+  text-align: center;
+  bottom: 10px;
+  font-size:25px;
+}
+
+.link {
+  top:5px;
+  color:green;
+  margin: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ee9aee;
+  max-height: 2100px;
+  border:1px solid transparent;
+  padding-bottom: 20px;
+}
+
+/*index*/
+.powitanie {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.serwer {
+  position:relative;
+  bottom:20px;
+  text-align:center;
+  font-family:sans-serif;
+}
+
+.fajne {
+  margin:auto;
+  position: relative;
+  border: 2px solid white;
+  width: 500px;
+  height: 600px;
+}
+
+.fajne p {
+  font-size: 28px;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-family: monospace;
+  font-weight:700;
+}
+
+.zdj1 {
+  position:absolute;
+  bottom: 0px;
+  font-size: 18px;
+  font-family: monospace;
+  z-index: auto;
+}
+
+/*
+.zdj2 img {
+  position:absolute;
+  margin-left:auto;
+  margin-right:auto;
+  left: 50%;
+  width:300px;
+  height:200px;
+}
+*/
+
+.zdj2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(175%,0);
+  position: absolute;
+  z-index: 1;
+  font-family:monospace;
+  font-size:30px
+}
+
+/*info*/
+
+.info {
+  border:1px solid white;
+  background-color:black;
+  color:white;
+  font-family:monospace;
+  font-size:25px;
+  width: 60%;
+  height: 500px;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.warning {
+  color: red;
+  opacity: 0.2;
+}
+
+.warned {
+  position: relative;
+  color: red;
+  opacity: 0.2;
+  bottom: 20px;
+}
+
+.next {
+  position:relative;
+  bottom:40px;
+}
+
+.next2 {
+  position:relative;
+  bottom:20px;
+}
+
+/*invite jest w pliku invite.css*?
